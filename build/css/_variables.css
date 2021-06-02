@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 02 Jun 2021 12:32:26 GMT
+ * Generated on Wed, 02 Jun 2021 12:35:57 GMT
  */
 
 :root {
@@ -12,6 +12,7 @@
   --sizes-size-300: 24;
   --sizes-size-200: 16;
   --sizes-size-150: 12;
+  --sizes-size-100: 8;
   --primary: rgba(12, 146, 62, 1);
   --negative: rgba(214, 66, 54, 1);
   --info: rgba(47, 110, 197, 1);

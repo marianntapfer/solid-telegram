@@ -3,7 +3,7 @@
 // StyleDictionarySize.swift
 //
 // Do not edit directly
-// Generated on Wed, 02 Jun 2021 12:32:26 GMT
+// Generated on Wed, 02 Jun 2021 12:35:57 GMT
 //
 
 import UIKit
@@ -37,6 +37,7 @@ public enum StyleDictionarySize {
     public static let 3OffsetY = 0
     public static let 3Radius = 2
     public static let 3Spread = 0
+    public static let size100 = 8
     public static let size150 = 12
     public static let size200 = 16
     public static let size300 = 24

@@ -3,7 +3,7 @@
 // StyleDictionary.swift
 //
 // Do not edit directly
-// Generated on Wed, 02 Jun 2021 12:32:26 GMT
+// Generated on Wed, 02 Jun 2021 12:35:57 GMT
 //
 
 
@@ -55,6 +55,7 @@ public class StyleDictionary {
     public static let info = rgba(47, 110, 197, 1)
     public static let negative = rgba(214, 66, 54, 1)
     public static let primary = rgba(12, 146, 62, 1)
+    public static let sizesSize100 = 8
     public static let sizesSize150 = 12
     public static let sizesSize200 = 16
     public static let sizesSize300 = 24

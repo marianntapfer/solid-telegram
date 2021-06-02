@@ -3,7 +3,7 @@
 // StyleDictionarySize.m
 //
 // Do not edit directly
-// Generated on Wed, 02 Jun 2021 12:32:26 GMT
+// Generated on Wed, 02 Jun 2021 12:35:57 GMT
 //
 
 #import "StyleDictionarySize.h"
@@ -18,6 +18,7 @@ float const SizesSize400 = 32;
 float const SizesSize300 = 24;
 float const SizesSize200 = 16;
 float const SizesSize150 = 12;
+float const SizesSize100 = 8;
 float const TitleXxlFontSize = 27;
 float const TitleXxlFontWeight = 400;
 float const TitleXxlLetterSpacing = 0;

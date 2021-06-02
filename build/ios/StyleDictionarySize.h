@@ -2,7 +2,7 @@
 // StyleDictionarySize.h
 //
 // Do not edit directly
-// Generated on Wed, 02 Jun 2021 12:32:26 GMT
+// Generated on Wed, 02 Jun 2021 12:35:57 GMT
 //
 
 #import <Foundation/Foundation.h>
@@ -17,6 +17,7 @@ extern float const SizesSize400;
 extern float const SizesSize300;
 extern float const SizesSize200;
 extern float const SizesSize150;
+extern float const SizesSize100;
 extern float const TitleXxlFontSize;
 extern float const TitleXxlFontWeight;
 extern float const TitleXxlLetterSpacing;
