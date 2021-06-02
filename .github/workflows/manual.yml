@@ -27,4 +27,7 @@ jobs:
     steps:
     # Runs a single command using the runners shell
     - name: Parse tokens
-      run: echo ${{ github.event }}
+      run: |
+        echo ${{ github.event }}
+        echo "${{ toJson(github.event) }}"
+        echo "${{ toJson(github.event.client_payload) }}"
