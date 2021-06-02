@@ -27,4 +27,4 @@ jobs:
     steps:
     # Runs a single command using the runners shell
     - name: Send greeting
-      run: echo "Hello ${{ github.event.inputs.name }}"echo ${{ github.event.client_payload }}
+      run: echo "Hello ${{ github.event.inputs.name }}"echo ${{ parseJSON(github.event.client_payload) }}
