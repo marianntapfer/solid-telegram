@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Thu, 03 Jun 2021 13:27:03 GMT
+// Generated on Thu, 03 Jun 2021 13:34:59 GMT
 
 $neutral-40: rgba(247, 247, 247, 1);
 $neutral-50: rgba(244, 245, 246, 1);
@@ -64,6 +64,406 @@ $neutral-rgba-250: rgba(38, 41, 44, 0.24);
 $neutral-rgba-300: rgba(38, 41, 44, 0.32);
 $neutral-rgba-600: rgba(38, 41, 44, 0.64);
 $neutral-rgba-750: rgba(38, 41, 44, 0.88);
+$surface-app-background: rgba(247, 247, 247, 1); // Neutral/40
+
+The background for the whole app.
+$surface-foreground: rgba(255, 255, 255, 1); // Neutral 00
+
+Panels and other white surfaces.
+$surface-on-foreground-light: rgba(238, 238, 238, 1); // Neutral 100
+$surface-on-foreground-medium: rgba(220, 221, 221, 1); // Neutral 200
+$surface-on-foreground-strong: rgba(185, 186, 187, 1); // Neutral 300
+$surface-foreground-inverted: rgba(38, 41, 44, 1); // Neutral 800
+
+Dark panels in the UI such as Tooltips, snackbars, Caller bars.
+$surface-foreground-inverted-light: rgba(64, 67, 70, 1); // Neutral 750
+
+Slightly lighter dark panels in the UI such as the Navigation bar.
+$surface-on-inverted-light: rgba(255, 255, 255, 0.16); // Neutral Inverted 200
+
+Secondary buttons on Inverted surfaces.
+$surface-on-inverted-medium: rgba(255, 255, 255, 0.24); // Neutral Inverted 250
+
+Secondary / ghost button hovers on inverted surfaces.
+$surface-on-inverted-strong: rgba(255, 255, 255, 0.48); // Neutral Inverted 300
+
+Secondary / ghost button pressed states on inverted surfaces.
+$separator-separator: rgba(229, 229, 229, 1); // Neutral 150
+
+Used for horisontal and vertical separators mostly.
+$separator-border: rgba(203, 204, 205, 1); // Neutral 250
+
+Used for button and input borders.
+$text-primary: rgba(38, 41, 44, 1); // Neutral 800
+
+Used for main body text.
+$text-secondary: rgba(116, 118, 120, 1); // Neutral 600
+
+Used for secondary text such as explanations and helpers or other texts that need less attention in the UI.
+$text-muted: rgba(185, 186, 187, 1); // Neutral 300
+
+Used for disabled text and placeholders.
+$text-active: rgba(49, 122, 226, 1); // Active - Default (Blue 800)
+
+Used for active tabs, active links in navigation.
+$text-link: rgba(49, 122, 226, 1); // Link - Default (Blue 800)
+
+Used for text links.
+$text-info: rgba(47, 110, 197, 1); // Info - Strong (Blue 850)
+
+Used for text on informative pills and badges.
+$text-positive: rgba(8, 167, 66, 1); // Positive - Default (Green 80
+0)
+
+Used for texts that show positive trends, success, and similar.
+$text-warning: rgba(255, 204, 0, 1); // Warning - Default (Yellow 800)
+
+Used for texts that warn the user, aka "no activity scheduled" and similar.
+$text-negative: rgba(249, 72, 57, 1); // Negative (Red 800)
+
+Used for texts that show clearly negative things such as errors, urgent messages and similar.
+$text-learn: rgba(102, 31, 149, 1);
+$text-primary-inverted: rgba(255, 255, 255, 1); // Surface - Foreground (Neutral 00)
+
+Used for texts on Inverted or brightly coloured backgrounds such as the Navigation bar, Coach marks, Snackbars, Tooltips and similar.
+$text-secondary-inverted: rgba(255, 255, 255, 0.72);
+$text-muted-inverted: rgba(255, 255, 255, 0.48);
+$text-title-xl-font-size: 23;
+$text-title-xl-text-decoration: none;
+$text-title-xl-font-family: Source Sans Pro;
+$text-title-xl-font-weight: 400;
+$text-title-xl-font-style: normal;
+$text-title-xl-font-stretch: normal;
+$text-title-xl-font-style-old: Regular;
+$text-title-xl-letter-spacing: 0;
+$text-title-xl-line-height: 28;
+$text-title-xl-paragraph-indent: 0;
+$text-title-xl-paragraph-spacing: 12;
+$text-title-xl-text-case: none;
+$text-title-l-font-size: 18;
+$text-title-l-text-decoration: none;
+$text-title-l-font-family: Source Sans Pro;
+$text-title-l-font-weight: 600;
+$text-title-l-font-style: normal;
+$text-title-l-font-stretch: normal;
+$text-title-l-font-style-old: Semibold;
+$text-title-l-letter-spacing: 0;
+$text-title-l-line-height: 24;
+$text-title-l-paragraph-indent: 0;
+$text-title-l-paragraph-spacing: 12;
+$text-title-l-text-case: none;
+$text-title-m-font-size: 15;
+$text-title-m-text-decoration: none;
+$text-title-m-font-family: Source Sans Pro;
+$text-title-m-font-weight: 600;
+$text-title-m-font-style: normal;
+$text-title-m-font-stretch: normal;
+$text-title-m-font-style-old: Semibold;
+$text-title-m-letter-spacing: 0;
+$text-title-m-line-height: 20;
+$text-title-m-paragraph-indent: 0;
+$text-title-m-paragraph-spacing: 12;
+$text-title-m-text-case: none;
+$text-title-xxl-font-size: 27;
+$text-title-xxl-text-decoration: none;
+$text-title-xxl-font-family: Source Sans Pro;
+$text-title-xxl-font-weight: 400;
+$text-title-xxl-font-style: normal;
+$text-title-xxl-font-stretch: normal;
+$text-title-xxl-font-style-old: Regular;
+$text-title-xxl-letter-spacing: 0;
+$text-title-xxl-line-height: 32;
+$text-title-xxl-paragraph-indent: 0;
+$text-title-xxl-paragraph-spacing: 12;
+$text-title-xxl-text-case: none;
+$icon-primary: rgba(38, 41, 44, 1); // Neutral 800
+$icon-secondary: rgba(116, 118, 120, 1); // Neutral 600
+$icon-muted: rgba(185, 186, 187, 1); // Neutral 300
+$icon-active: rgba(49, 122, 226, 1); // Active - Default (Blue 800)
+$icon-link: rgba(49, 122, 226, 1); // Active - Default (Blue 800)
+$icon-info: rgba(49, 122, 226, 1); // Active - Default (Blue 800)
+$icon-positive: rgba(8, 167, 66, 1); // Green 800
+$icon-warning: rgba(255, 204, 0, 1); // Yellow 800
+$icon-negative: rgba(249, 72, 57, 1); // Red 800
+$icon-learn: rgba(114, 30, 169, 1); // Purple 800
+$icon-primary-inverted: rgba(255, 255, 255, 1); // Neutral 00 (White)
+$icon-secondary-inverted: rgba(255, 255, 255, 0.72);
+$icon-muted-inverted: rgba(255, 255, 255, 0.48);
+$primary-strong: rgba(12, 146, 62, 1); // Green 850
+
+Used for pressed down primary interactive elements.
+$primary-default: rgba(8, 167, 66, 1); // Green 800
+
+This is the primary brand color. Used for elements which are green not because they are specifically positive but because they are primary – Buttons for example.
+$primary-hover: rgba(38, 178, 89, 1); // Green 850
+
+Hover color for primary interactive elements.
+$primary-muted: rgba(176, 226, 194, 1); // Green 300
+
+Used for disabled primary interactive elements.
+$active-default: rgba(49, 122, 226, 1); // Blue 800
+
+Used for active interactive elements – active tab indicators, active button borders, focus borders, radios, checkboxes etc.
+$active-muted: rgba(189, 212, 245, 1); // Blue 300
+$active-background-strong: rgba(206, 223, 248, 1); // Blue 250
+$active-background: rgba(222, 234, 250, 1); // Blue 200
+$active-background-light: rgba(230, 239, 251, 1); // Blue 150
+$positive-strong: rgba(12, 146, 62, 1); // Green 850
+$positive-default: rgba(8, 167, 66, 1); // Green 8000
+$positive-secondary: rgba(97, 199, 134, 1); // Green 600
+$positive-muted: rgba(176, 226, 194, 1); // Green 300
+$positive-background: rgba(215, 241, 225, 1); // Green 200
+$positive-background-light: rgba(225, 244, 232, 1); // Green 150
+$warning-strong: rgba(221, 178, 7, 1); // Yellor 850
+$warning-default: rgba(255, 204, 0, 1); // Yellor 800
+$warning-secondary: rgba(255, 223, 92, 1); // Yellow 600
+$warning-muted: rgba(255, 247, 214, 1); // Yellow 300
+$warning-background: rgba(255, 247, 214, 1); // Yellow 150
+$negative-strong: rgba(214, 66, 54, 1); // Red 850
+$negative-default: rgba(249, 72, 57, 1); // Red 800
+$negative-hover: rgba(250, 94, 81, 1); // Red 750
+$negative-secondary: rgba(251, 138, 128, 1); // Red 600
+$negative-muted: rgba(253, 196, 191, 1); // Red 300
+$negative-background: rgba(254, 226, 223, 1); // Red 200
+$info-strong: rgba(47, 110, 197, 1); // Blue 850
+$info-default: rgba(49, 122, 226, 1); // Blue 800
+$info-muted: rgba(189, 212, 245, 1); // Blue 300
+$info-background: rgba(222, 234, 250, 1); // Blue 200
+$info-background-light: rgba(239, 245, 253, 1); // Blue 100
+$learn-strong: rgba(102, 31, 149, 1); // Purple 850
+$learn-default: rgba(114, 30, 169, 1); // Purple 800
+$learn-secondary: rgba(165, 111, 200, 1); // Purple 600
+$learn-muted: rgba(232, 219, 241, 1); // Purple 300
+$learn-background: rgba(232, 219, 241, 1); // Purple 200
+$learn-background-light: rgba(232, 219, 241, 1); // Purple 150
+$webapp-body-font-size: 14;
+$webapp-body-text-decoration: none;
+$webapp-body-font-family: Inter;
+$webapp-body-font-weight: 400;
+$webapp-body-font-style: normal;
+$webapp-body-font-stretch: normal;
+$webapp-body-font-style-old: Regular;
+$webapp-body-letter-spacing: 0;
+$webapp-body-line-height: 20;
+$webapp-body-paragraph-indent: 0;
+$webapp-body-paragraph-spacing: 12;
+$webapp-body-text-case: none;
+$webapp-body-l-font-size: 16;
+$webapp-body-l-text-decoration: none;
+$webapp-body-l-font-family: Inter;
+$webapp-body-l-font-weight: 400;
+$webapp-body-l-font-style: normal;
+$webapp-body-l-font-stretch: normal;
+$webapp-body-l-font-style-old: Regular;
+$webapp-body-l-letter-spacing: 0;
+$webapp-body-l-line-height: 20;
+$webapp-body-l-paragraph-indent: 0;
+$webapp-body-l-paragraph-spacing: 12;
+$webapp-body-l-text-case: none;
+$webapp-body-s-font-size: 12;
+$webapp-body-s-text-decoration: none;
+$webapp-body-s-font-family: Inter;
+$webapp-body-s-font-weight: 400;
+$webapp-body-s-font-style: normal;
+$webapp-body-s-font-stretch: normal;
+$webapp-body-s-font-style-old: Regular;
+$webapp-body-s-letter-spacing: 0;
+$webapp-body-s-line-height: 16;
+$webapp-body-s-paragraph-indent: 0;
+$webapp-body-s-paragraph-spacing: 12;
+$webapp-body-s-text-case: none;
+$webapp-title-xxl-font-size: 25;
+$webapp-title-xxl-text-decoration: none;
+$webapp-title-xxl-font-family: Inter;
+$webapp-title-xxl-font-weight: 400;
+$webapp-title-xxl-font-style: normal;
+$webapp-title-xxl-font-stretch: normal;
+$webapp-title-xxl-font-style-old: Regular;
+$webapp-title-xxl-letter-spacing: 0;
+$webapp-title-xxl-line-height: 32;
+$webapp-title-xxl-paragraph-indent: 0;
+$webapp-title-xxl-paragraph-spacing: 12;
+$webapp-title-xxl-text-case: none;
+$webapp-title-xl-font-size: 21;
+$webapp-title-xl-text-decoration: none;
+$webapp-title-xl-font-family: Inter;
+$webapp-title-xl-font-weight: 400;
+$webapp-title-xl-font-style: normal;
+$webapp-title-xl-font-stretch: normal;
+$webapp-title-xl-font-style-old: Regular;
+$webapp-title-xl-letter-spacing: 0;
+$webapp-title-xl-line-height: 28;
+$webapp-title-xl-paragraph-indent: 0;
+$webapp-title-xl-paragraph-spacing: 12;
+$webapp-title-xl-text-case: none;
+$webapp-title-l-font-size: 16;
+$webapp-title-l-text-decoration: none;
+$webapp-title-l-font-family: Inter;
+$webapp-title-l-font-weight: 600;
+$webapp-title-l-font-style: normal;
+$webapp-title-l-font-stretch: normal;
+$webapp-title-l-font-style-old: Semi Bold;
+$webapp-title-l-letter-spacing: 0;
+$webapp-title-l-line-height: 24;
+$webapp-title-l-paragraph-indent: 0;
+$webapp-title-l-paragraph-spacing: 12;
+$webapp-title-l-text-case: none;
+$webapp-title-m-font-size: 14;
+$webapp-title-m-text-decoration: none;
+$webapp-title-m-font-family: Inter;
+$webapp-title-m-font-weight: 600;
+$webapp-title-m-font-style: normal;
+$webapp-title-m-font-stretch: normal;
+$webapp-title-m-font-style-old: Semi Bold;
+$webapp-title-m-letter-spacing: 0;
+$webapp-title-m-line-height: 20;
+$webapp-title-m-paragraph-indent: 0;
+$webapp-title-m-paragraph-spacing: 12;
+$webapp-title-m-text-case: none;
+$webapp-link-font-size: 14;
+$webapp-link-text-decoration: none;
+$webapp-link-font-family: Inter;
+$webapp-link-font-weight: 600;
+$webapp-link-font-style: normal;
+$webapp-link-font-stretch: normal;
+$webapp-link-font-style-old: Semi Bold;
+$webapp-link-letter-spacing: 0;
+$webapp-link-line-height: 20;
+$webapp-link-paragraph-indent: 0;
+$webapp-link-paragraph-spacing: 12;
+$webapp-link-text-case: none;
+$webapp-link-alt-font-size: 14;
+$webapp-link-alt-text-decoration: none;
+$webapp-link-alt-font-family: Inter;
+$webapp-link-alt-font-weight: 400;
+$webapp-link-alt-font-style: normal;
+$webapp-link-alt-font-stretch: normal;
+$webapp-link-alt-font-style-old: Regular;
+$webapp-link-alt-letter-spacing: 0;
+$webapp-link-alt-line-height: 20;
+$webapp-link-alt-paragraph-indent: 0;
+$webapp-link-alt-paragraph-spacing: 12;
+$webapp-link-alt-text-case: none;
+$elevation-50-type: dropShadow;
+$elevation-50-radius: 2;
+$elevation-50-color: rgba(42, 54, 71, 0.05);
+$elevation-50-offset-x: 0;
+$elevation-50-offset-y: 1;
+$elevation-50-spread: 0;
+$elevation-100-0-type: dropShadow;
+$elevation-100-0-radius: 3;
+$elevation-100-0-color: rgba(0, 0, 0, 0.07);
+$elevation-100-0-offset-x: 0;
+$elevation-100-0-offset-y: 1;
+$elevation-100-0-spread: 0;
+$elevation-100-1-type: dropShadow;
+$elevation-100-1-radius: 2;
+$elevation-100-1-color: rgba(0, 0, 0, 0.06);
+$elevation-100-1-offset-x: 0;
+$elevation-100-1-offset-y: 1;
+$elevation-100-1-spread: -2;
+$elevation-100-2-type: dropShadow;
+$elevation-100-2-radius: 1;
+$elevation-100-2-color: rgba(0, 0, 0, 0.05);
+$elevation-100-2-offset-x: 0;
+$elevation-100-2-offset-y: 0;
+$elevation-100-2-spread: 1;
+$elevation-200-0-type: dropShadow;
+$elevation-200-0-radius: 4;
+$elevation-200-0-color: rgba(42, 54, 71, 0.12);
+$elevation-200-0-offset-x: 0;
+$elevation-200-0-offset-y: 0;
+$elevation-200-0-spread: 0;
+$elevation-200-1-type: dropShadow;
+$elevation-200-1-radius: 5;
+$elevation-200-1-color: rgba(42, 54, 71, 0.08);
+$elevation-200-1-offset-x: 0;
+$elevation-200-1-offset-y: 3;
+$elevation-200-1-spread: 0;
+$elevation-300-0-type: dropShadow;
+$elevation-300-0-radius: 8;
+$elevation-300-0-color: rgba(0, 0, 0, 0.1);
+$elevation-300-0-offset-x: 0;
+$elevation-300-0-offset-y: 1;
+$elevation-300-0-spread: 0;
+$elevation-300-1-type: dropShadow;
+$elevation-300-1-radius: 3;
+$elevation-300-1-color: rgba(0, 0, 0, 0.06);
+$elevation-300-1-offset-x: 0;
+$elevation-300-1-offset-y: 3;
+$elevation-300-1-spread: -2;
+$elevation-300-2-type: dropShadow;
+$elevation-300-2-radius: 4;
+$elevation-300-2-color: rgba(0, 0, 0, 0.05);
+$elevation-300-2-offset-x: 0;
+$elevation-300-2-offset-y: 3;
+$elevation-300-2-spread: 0;
+$elevation-300-3-type: dropShadow;
+$elevation-300-3-radius: 2;
+$elevation-300-3-color: rgba(0, 0, 0, 0.16);
+$elevation-300-3-offset-x: 0;
+$elevation-300-3-offset-y: 0;
+$elevation-300-3-spread: 0;
+$elevation-800-0-type: dropShadow;
+$elevation-800-0-radius: 5;
+$elevation-800-0-color: rgba(0, 0, 0, 0.1);
+$elevation-800-0-offset-x: 0;
+$elevation-800-0-offset-y: 5;
+$elevation-800-0-spread: -3;
+$elevation-800-1-type: dropShadow;
+$elevation-800-1-radius: 14;
+$elevation-800-1-color: rgba(0, 0, 0, 0.06);
+$elevation-800-1-offset-x: 0;
+$elevation-800-1-offset-y: 3;
+$elevation-800-1-spread: 2;
+$elevation-800-2-type: dropShadow;
+$elevation-800-2-radius: 10;
+$elevation-800-2-color: rgba(0, 0, 0, 0.05);
+$elevation-800-2-offset-x: 0;
+$elevation-800-2-offset-y: 8;
+$elevation-800-2-spread: 1;
+$elevation-800-3-type: dropShadow;
+$elevation-800-3-radius: 2;
+$elevation-800-3-color: rgba(0, 0, 0, 0.24);
+$elevation-800-3-offset-x: 0;
+$elevation-800-3-offset-y: 0;
+$elevation-800-3-spread: 0;
+$elevation-1600-0-type: dropShadow;
+$elevation-1600-0-radius: 10;
+$elevation-1600-0-color: rgba(0, 0, 0, 0.1);
+$elevation-1600-0-offset-x: 0;
+$elevation-1600-0-offset-y: 8;
+$elevation-1600-0-spread: -5;
+$elevation-1600-1-type: dropShadow;
+$elevation-1600-1-radius: 30;
+$elevation-1600-1-color: rgba(0, 0, 0, 0.06);
+$elevation-1600-1-offset-x: 0;
+$elevation-1600-1-offset-y: 6;
+$elevation-1600-1-spread: 5;
+$elevation-1600-2-type: dropShadow;
+$elevation-1600-2-radius: 24;
+$elevation-1600-2-color: rgba(0, 0, 0, 0.05);
+$elevation-1600-2-offset-x: 0;
+$elevation-1600-2-offset-y: 16;
+$elevation-1600-2-spread: 2;
+$elevation-1600-3-type: dropShadow;
+$elevation-1600-3-radius: 2;
+$elevation-1600-3-color: rgba(0, 0, 0, 0.24);
+$elevation-1600-3-offset-x: 0;
+$elevation-1600-3-offset-y: 0;
+$elevation-1600-3-spread: 0;
+$elevation-2400-0-type: dropShadow;
+$elevation-2400-0-radius: 28;
+$elevation-2400-0-color: rgba(25, 36, 53, 0.16);
+$elevation-2400-0-offset-x: 0;
+$elevation-2400-0-offset-y: 18;
+$elevation-2400-0-spread: 0;
+$elevation-2400-1-type: dropShadow;
+$elevation-2400-1-radius: 1;
+$elevation-2400-1-color: rgba(25, 36, 53, 0.32);
+$elevation-2400-1-offset-x: 0;
+$elevation-2400-1-offset-y: 0;
+$elevation-2400-1-spread: 0;
 $sizes-32: 32.72; // 32.72px spacer component
 $sizes-40: 40;
 $sizes-60: 60;
@@ -380,54 +780,6 @@ $color-component-button-color-alias: #d64236; // alias
 $color-global-negative: #d64236; // this color has a comment 
 $color-global-info: #2f6ec5; // this color is new
 $color-global-primary: #0c923e;
-$text-title-xl-font-size: 23;
-$text-title-xl-text-decoration: none;
-$text-title-xl-font-family: Source Sans Pro;
-$text-title-xl-font-weight: 400;
-$text-title-xl-font-style: normal;
-$text-title-xl-font-stretch: normal;
-$text-title-xl-font-style-old: Regular;
-$text-title-xl-letter-spacing: 0;
-$text-title-xl-line-height: 28;
-$text-title-xl-paragraph-indent: 0;
-$text-title-xl-paragraph-spacing: 12;
-$text-title-xl-text-case: none;
-$text-title-l-font-size: 18;
-$text-title-l-text-decoration: none;
-$text-title-l-font-family: Source Sans Pro;
-$text-title-l-font-weight: 600;
-$text-title-l-font-style: normal;
-$text-title-l-font-stretch: normal;
-$text-title-l-font-style-old: Semibold;
-$text-title-l-letter-spacing: 0;
-$text-title-l-line-height: 24;
-$text-title-l-paragraph-indent: 0;
-$text-title-l-paragraph-spacing: 12;
-$text-title-l-text-case: none;
-$text-title-m-font-size: 15;
-$text-title-m-text-decoration: none;
-$text-title-m-font-family: Source Sans Pro;
-$text-title-m-font-weight: 600;
-$text-title-m-font-style: normal;
-$text-title-m-font-stretch: normal;
-$text-title-m-font-style-old: Semibold;
-$text-title-m-letter-spacing: 0;
-$text-title-m-line-height: 20;
-$text-title-m-paragraph-indent: 0;
-$text-title-m-paragraph-spacing: 12;
-$text-title-m-text-case: none;
-$text-title-xxl-font-size: 27;
-$text-title-xxl-text-decoration: none;
-$text-title-xxl-font-family: Source Sans Pro;
-$text-title-xxl-font-weight: 400;
-$text-title-xxl-font-style: normal;
-$text-title-xxl-font-stretch: normal;
-$text-title-xxl-font-style-old: Regular;
-$text-title-xxl-letter-spacing: 0;
-$text-title-xxl-line-height: 32;
-$text-title-xxl-paragraph-indent: 0;
-$text-title-xxl-paragraph-spacing: 12;
-$text-title-xxl-text-case: none;
 $elevations-elevation-01-0-type: dropShadow;
 $elevations-elevation-01-0-radius: 3;
 $elevations-elevation-01-0-color: rgba(0, 0, 0, 0.07);
