@@ -3,13 +3,22 @@
 // StyleDictionary.swift
 //
 // Do not edit directly
-// Generated on Thu, 03 Jun 2021 12:39:21 GMT
+// Generated on Thu, 03 Jun 2021 13:27:03 GMT
 //
 
 
 import UIKit
 
 public class StyleDictionary {
+    public static let blue100 = rgba(239, 245, 253, 1)
+    public static let blue150 = rgba(230, 239, 251, 1)
+    public static let blue200 = rgba(222, 234, 250, 1)
+    public static let blue250 = rgba(206, 223, 248, 1)
+    public static let blue300 = rgba(189, 212, 245, 1)
+    public static let blue600 = rgba(123, 170, 237, 1)
+    public static let blue750 = rgba(74, 138, 230, 1)
+    public static let blue800 = rgba(49, 122, 226, 1)
+    public static let blue850 = rgba(47, 110, 197, 1)
     public static let bodyExtraBoldCondensedItalicFontFamily = Akzidenz-Grotesk Pro
     public static let bodyExtraBoldCondensedItalicFontSize = 12
     public static let bodyExtraBoldCondensedItalicFontStretch = condensed
@@ -235,6 +244,15 @@ public class StyleDictionary {
     public static let gradientSingleWithMultipleColorStopsStops2Position = 0.65
     public static let gradientSingleWithMultipleColorStopsStops3Color = rgba(255, 0, 0, 1)
     public static let gradientSingleWithMultipleColorStopsStops3Position = 1
+    public static let green100 = rgba(236, 248, 240, 1)
+    public static let green150 = rgba(225, 244, 232, 1)
+    public static let green200 = rgba(215, 241, 225, 1)
+    public static let green250 = rgba(196, 234, 210, 1)
+    public static let green300 = rgba(176, 226, 194, 1)
+    public static let green600 = rgba(97, 199, 134, 1)
+    public static let green750 = rgba(38, 178, 89, 1)
+    public static let green800 = rgba(8, 167, 66, 1)
+    public static let green850 = rgba(12, 146, 62, 1)
     public static let gridMultiple0Alignment = max
     public static let gridMultiple0Count = 7
     public static let gridMultiple0GutterSize = 20
@@ -311,6 +329,37 @@ public class StyleDictionary {
     public static let motionSmartEasingFunctionY1 = 0
     public static let motionSmartEasingFunctionY2 = 1
     public static let motionSmartType = smart_animate
+    public static let neutralInverted200 = rgba(255, 255, 255, 0.16)
+    public static let neutralInverted250 = rgba(255, 255, 255, 0.24)
+    public static let neutralInverted300 = rgba(255, 255, 255, 0.48)
+    public static let neutralInverted600 = rgba(255, 255, 255, 0.72)
+    public static let neutralRgba100 = rgba(38, 41, 44, 0.08)
+    public static let neutralRgba150 = rgba(38, 41, 44, 0.12)
+    public static let neutralRgba200 = rgba(38, 41, 44, 0.16)
+    public static let neutralRgba250 = rgba(38, 41, 44, 0.24)
+    public static let neutralRgba300 = rgba(38, 41, 44, 0.32)
+    public static let neutralRgba40 = rgba(38, 41, 44, 0.04)
+    public static let neutralRgba50 = rgba(38, 41, 44, 0.05)
+    public static let neutralRgba600 = rgba(38, 41, 44, 0.64)
+    public static let neutralRgba750 = rgba(38, 41, 44, 0.88)
+    public static let neutral00 = rgba(255, 255, 255, 1)
+    public static let neutral100 = rgba(238, 238, 238, 1)
+    public static let neutral150 = rgba(229, 229, 229, 1)
+    public static let neutral200 = rgba(220, 221, 221, 1)
+    public static let neutral250 = rgba(203, 204, 205, 1)
+    public static let neutral300 = rgba(185, 186, 187, 1)
+    public static let neutral40 = rgba(247, 247, 247, 1)
+    public static let neutral50 = rgba(244, 245, 246, 1)
+    public static let neutral600 = rgba(116, 118, 120, 1)
+    public static let neutral750 = rgba(64, 67, 70, 1)
+    public static let neutral800 = rgba(38, 41, 44, 1)
+    public static let neutral850 = rgba(32, 34, 37, 1)
+    public static let otherHighlightYellow = rgba(255, 245, 112, 1)
+    public static let otherNoteYellow = rgba(255, 252, 220, 1)
+    public static let purple200 = rgba(232, 219, 241, 1)
+    public static let purple600 = rgba(165, 111, 200, 1)
+    public static let purple800 = rgba(114, 30, 169, 1)
+    public static let purple850 = rgba(102, 31, 149, 1)
     public static let radii5RadiiBottomLeft = 5
     public static let radii5RadiiBottomRight = 5
     public static let radii5RadiiTopLeft = 5
@@ -338,6 +387,15 @@ public class StyleDictionary {
     public static let radiiSmoothingRadius = 10
     public static let radiiSmoothingRadiusType = single
     public static let radiiSmoothingSmoothing = 0.75
+    public static let red100 = rgba(255, 241, 240, 1)
+    public static let red150 = rgba(254, 233, 231, 1)
+    public static let red200 = rgba(254, 226, 223, 1)
+    public static let red250 = rgba(254, 211, 208, 1)
+    public static let red300 = rgba(253, 196, 191, 1)
+    public static let red600 = rgba(251, 138, 128, 1)
+    public static let red750 = rgba(250, 94, 81, 1)
+    public static let red800 = rgba(249, 72, 57, 1)
+    public static let red850 = rgba(214, 66, 54, 1)
     public static let sizes32 = 32.72
     public static let sizes40 = 40
     public static let sizes60 = 60
@@ -416,4 +474,8 @@ public class StyleDictionary {
     public static let textTitleXxlParagraphSpacing = 12
     public static let textTitleXxlTextCase = none
     public static let textTitleXxlTextDecoration = none
+    public static let yellow200 = rgba(255, 247, 214, 1)
+    public static let yellow600 = rgba(255, 223, 92, 1)
+    public static let yellow800 = rgba(255, 204, 0, 1)
+    public static let yellow850 = rgba(221, 178, 7, 1)
 }
